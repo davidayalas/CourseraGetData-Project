@@ -14,7 +14,7 @@ Installation
 
 2) Download the run_analysis.R script to your computer. Modify the "srcpath" variable in the first line of the script if the script isn't downloaded into the root of the directory of step 1.
 
-3) Execute the script "Rscript run_analysis.R"
+3) Execute the script "Rscript run_analysis.R" [(download)](https://raw.githubusercontent.com/davidayalas/CourseraGetData-Project/master/run_analysis.R)
 
 How it works
 -------------
