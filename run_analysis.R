@@ -1,5 +1,5 @@
 #datasets directory source
-srcpath = "./"
+srcpath = "C:\\Users\\david.ayala\\Downloads\\UCI HAR Dataset"
 
 #Load test files: x, y, subject
 x_test <- read.table(paste0(srcpath,"/test/X_test.txt"))
@@ -30,7 +30,7 @@ train_test$Activity <- apply(train_test, 1, FUN=function(t) activities[activitie
 
 #subsets columns and labels the variables properly, for mean and standard columns
 features <- read.table(paste0(srcpath,"/features.txt"))
-mean_std <- features[which(grepl("mean", features[[2]], ignore.case=TRUE) | grepl("std", features[[2]], ignore.case=TRUE)),]
+mean_std <- features[which(grepl("mean\\(\\)", features[[2]], ignore.case=TRUE) | grepl("std\\(\\)", features[[2]], ignore.case=TRUE)),]
 mean_std_total <- train_test[, mean_std[,1:1]]
 
 renameCols <- function(c){ 

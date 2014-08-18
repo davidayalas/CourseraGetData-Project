@@ -1,9 +1,16 @@
 Cookbook for tidy.txt dataset
 ==============================
 
+All values from the variables are the mean from the original dataset. We get one record for each subject and activity.
 
-* Subject
-* Activity
+* Subject<br />
+			
+		Its range is from 1 to 30
+
+* Activity<br />
+	
+		Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
 * TimeBodyAccMeanX
 * TimeBodyAccMeanY
 * TimeBodyAccMeanZ
@@ -50,43 +57,23 @@ Cookbook for tidy.txt dataset
 * FrequencyBodyAccStdX
 * FrequencyBodyAccStdY
 * FrequencyBodyAccStdZ
-* FrequencyBodyAccMeanFreqX
-* FrequencyBodyAccMeanFreqY
-* FrequencyBodyAccMeanFreqZ
 * FrequencyBodyAccJerkMeanX
 * FrequencyBodyAccJerkMeanY
 * FrequencyBodyAccJerkMeanZ
 * FrequencyBodyAccJerkStdX
 * FrequencyBodyAccJerkStdY
 * FrequencyBodyAccJerkStdZ
-* FrequencyBodyAccJerkMeanFreqX
-* FrequencyBodyAccJerkMeanFreqY
-* FrequencyBodyAccJerkMeanFreqZ
 * FrequencyBodyGyroMeanX
 * FrequencyBodyGyroMeanY
 * FrequencyBodyGyroMeanZ
 * FrequencyBodyGyroStdX
 * FrequencyBodyGyroStdY
 * FrequencyBodyGyroStdZ
-* FrequencyBodyGyroMeanFreqX
-* FrequencyBodyGyroMeanFreqY
-* FrequencyBodyGyroMeanFreqZ
 * FrequencyBodyAccMagMean
 * FrequencyBodyAccMagStd
-* FrequencyBodyAccMagMeanFreq
 * FrequencyBodyBodyAccJerkMagMean
 * FrequencyBodyBodyAccJerkMagStd
-* FrequencyBodyBodyAccJerkMagMeanFreq
 * FrequencyBodyBodyGyroMagMean
 * FrequencyBodyBodyGyroMagStd
-* FrequencyBodyBodyGyroMagMeanFreq
 * FrequencyBodyBodyGyroJerkMagMean
 * FrequencyBodyBodyGyroJerkMagStd
-* FrequencyBodyBodyGyroJerkMagMeanFreq
-* AngleTimeBodyAccMean-Gravity
-* AngleTimeBodyAccJerkMean-GravityMean
-* AngleTimeBodyGyroMean-GravityMean
-* AngleTimeBodyGyroJerkMean-GravityMean
-* AngleX-GravityMean
-* AngleY-GravityMean
-* AngleZ-GravityMean
