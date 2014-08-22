@@ -1,5 +1,5 @@
 #datasets directory source
-srcpath = "C:\\Users\\david.ayala\\Downloads\\UCI HAR Dataset"
+srcpath = "./UCI HAR Dataset"
 
 #Load test files: x, y, subject
 x_test <- read.table(paste0(srcpath,"/test/X_test.txt"))
