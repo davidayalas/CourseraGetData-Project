@@ -36,6 +36,8 @@ Next variable names are composed by:
 
 	- X, Y or Z axis
 
+* Variables are expressed in Hz.
+
 * Variables:
 
 	* TimeBodyAccMeanX
