@@ -1,7 +1,7 @@
 Cookbook for tidy.txt dataset
 ==============================
 
-All values from the variables are the mean from the original dataset and are bounded between [-1,1]. We get one record for each subject and activity.
+All values from the variables are the mean and standard deviation signals from the original dataset and are bounded between [-1,1] Hz. We get one record for each subject and activity.
 
 * Subject<br />
 			
@@ -14,14 +14,14 @@ All values from the variables are the mean from the original dataset and are bou
 Next variable names are composed by:
 
 - First part:
-	- **Time** = time domain signal captured at a constant rate of 50 Hz
-	- **Frequency** = Fast Fourier Transform (FFT) applied to the equivalent variable with "Time" prefix 
+	- **Time**: Time domain signal captured at a constant rate of 50 Hz
+	- **Frequency**: Fast Fourier Transform (FFT) applied to the equivalent variable with "Time" prefix 
 
 - Second part:
 
-	- **BodyAcc** = body linear acceleration signals
-	- **BodyGiro** = body angular velocity signals
-	- **GravityAcc** = gravity acceleration signals
+	- **BodyAcc**: Body linear acceleration signals
+	- **BodyGiro**: Body angular velocity signals
+	- **GravityAcc**: Gravity acceleration signals
 
 - Third part (optional):
 
@@ -34,9 +34,9 @@ Next variable names are composed by:
  
 - Fifth part:
 
-	- X, Y or Z axis
+	- **X**, **Y** or **Z** axis
 
-* Variables are expressed in Hz.
+* Variables values are expressed in Hz.
 
 * Variables:
 
